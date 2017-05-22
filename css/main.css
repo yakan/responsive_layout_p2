@@ -1,0 +1,112 @@
+/********************
+*Base Element Styles*
+*********************/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #3a3a3a;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+
+h2,
+h3,
+a {
+	color: #093a58;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+.name {
+	font-size: 1.35em;
+	margin: 0;
+}
+nav {
+	margin-top: 5px;
+}
+.footer a,
+.name a,
+nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+}
+nav a {
+	font-size: .95em;
+	color: #093a58;
+	text-transform: uppercase;
+}
+nav a:hover {
+	color: #3acec2;
+}
+
+/* ---- Layout Containers ---- */
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+.main-footer {
+	background: #d9e4ea;
+	padding: 2em 0;
+	margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 6px solid #b8cad6;
+}
+
+.extended-footer{
+  display: none;
+}
+
+.col {
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+}
+
+/* =================================
+  Media Queries
+==================================== */
+@media (min-width: 768px) {
+
+  .mobile-footer {
+    display: none;
+  }
+  .extended-footer {
+    display: flex;
+  }
+
+  /*.extended-footer a {
+    padding-top: 0;
+    padding-bottom: 0;
+  }*/
+
+}
