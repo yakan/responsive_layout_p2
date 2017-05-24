@@ -75,7 +75,9 @@ img {
 	color: #093a58;
   background-color: #fff;
 }
-.main-nav a:hover {
+.main-nav a:hover,
+.mobile-footer a:hover,
+.extended-footer a:hover {
 	color: #3acec2;
 }
 .main-nav a,
